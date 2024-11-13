@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document - Lineup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
+    <script defer src="main.js"></script>
+    <!--FONT AWESOME LOGOS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--FONT AWESOME LOGOS-->
+</head>
+<body>
+    <div class="mobile-menu">
+        <div class="mobile-menu-top-nav">
+            <i onclick="closeMenu()" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="menu-nav">
+            <div class="menu-nav-text">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="menu-nav-text">
+                <a href="#About">About</a>
+            </div>
+            <div class="menu-nav-text">
+                <a href="#Contact">Contact</a>
+            </div>
+            <div class="menu-nav-text">
+                <a href="lineup.html">Lineup</a>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="nav">
+            <div class="nav-logo"><img src="img/EELEKTRIK-EEL-logo-transparent.png" alt="logo" style="width: 100px;" height="150px"></div>
+                <div class="desktop-nav">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="desktop-nav">
+                    <a href="#About">About</a>
+                </div>
+                <div class="desktop-nav">
+                    <a href="#Contact">Contact</a>
+                </div>
+                <div class="desktop-nav">
+                    <a href="lineup.html">Lineup</a>
+                </div>
+            <div onclick="openMenu()" class="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div id="all-artists-lineup">
+            <!-- <div class="img-section1">
+                <div class="celeb-image">
+                    <img src="img/Kanye.jpg" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Kanye West</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Cool taylor.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Taylor Swift</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/WEEKND 2.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>The Weeknd</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Ed sheeran 2.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Ed Sheeran</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Ariana Grande.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Ariana Grande</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Ariana Grande.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Ariana Grande</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Ariana Grande.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Ariana Grande</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Ariana Grande.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Ariana Grande</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Ariana Grande.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Ariana Grande</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Ariana Grande.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Ariana Grande</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Ariana Grande.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Ariana Grande</div>
+                </div>
+                <div class="celeb-image">
+                    <img src="img/Ariana Grande.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                    <div>Ariana Grande</div>
+                </div>
+            </div> -->
+            <!-- <div class="names">Kanye West Taylor Swift The Weeknd</div> -->
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/Kanye.jpg" alt="kanye">
+                    <div class="artist-info">Kanye West</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/Cool taylor.png" alt="taylor">
+                    <div class="artist-info">Taylor Swift</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/WEEKND 2.png" alt="weeknd">
+                    <div class="artist-info">The Weeknd</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/non-tiny-img/micheal.jpg" alt="kanye">
+                    <div class="artist-info">Micheal</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/non-tiny-img/beyonce.jpg" alt="kanye">
+                    <div class="artist-info">Beyonce</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/non-tiny-img/Rihanna.png" alt="kanye">
+                    <div class="artist-info">Rihanna</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/non-tiny-img/justin.jpg" alt="kanye">
+                    <div class="artist-info">Justin Bieber</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/non-tiny-img/Billie_Eilish.jpg" alt="kanye">
+                    <div class="artist-info">Billie Eilish</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/non-tiny-img/lady gaga.jpg" alt="kanye">
+                    <div class="artist-info">Lady Gaga</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/non-tiny-img/bruno mars.jpg" alt="kanye">
+                    <div class="artist-info">Bruno Mars</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/non-tiny-img/Mariah.jpg" alt="kanye">
+                    <div class="artist-info">Mariah</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-image">
+                    <img src="img/non-tiny-img/katty perry.jpg" alt="kanye">
+                    <div class="artist-info">Katty Perry</div>
+                    <div class="artist-info">DEC19th</div>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="img/festival crowd.png" alt="crowd" style="width:100%;" height="853px"> -->
+        <!-- <div class="bottom-left">EELEKTRIK EEL FESTIVAL</div> -->
+</body>
+</html>

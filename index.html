@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
+    <script defer src="main.js"></script>
+    <!--FONT AWESOME LOGOS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--FONT AWESOME LOGOS-->
+</head>
+<body>
+    <div class="mobile-menu">
+        <div class="mobile-menu-top-nav">
+            <i onclick="closeMenu()" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="menu-nav">
+            <div class="menu-nav-text">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="menu-nav-text">
+                <a href="#About">About</a>
+            </div>
+            <div class="menu-nav-text">
+                <a href="#Contact">Contact</a>
+            </div>
+            <div class="menu-nav-text">
+                <a href="lineup.html">Lineup</a>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="nav">
+            <div class="nav-logo"><img src="img/EELEKTRIK-EEL-logo-transparent.png" alt="logo" style="width: 100px;" height="150px"></div>
+                <div class="desktop-nav">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="desktop-nav">
+                    <!-- placeholder -->
+                    <a href="#About">About</a>
+                </div>
+                <div class="desktop-nav">
+                    <a href="#Contact">Contact</a>
+                </div>
+                <div class="desktop-nav">
+                    <a href="lineup.html">Lineup</a>
+                </div>
+
+            <div onclick="openMenu()" class="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <!-- <img src="img/festival crowd.png" alt="crowd" style="width:100%;" height="853px"> -->
+        <!-- <div class="bottom-left">EELEKTRIK EEL FESTIVAL</div> -->
+    </div>
+    <div class="tagline">
+        <div class="yellow-line"></div>
+        <div id="tagline-message">Three nights of premiere artistry and hypnotic craftmanship.</div>
+        <div class="yellow-line"></div>
+    </div>
+    
+        <div id="artists-title">ARTISTS</div>
+        <div class="artists">
+            <img src="img/Kanye.jpg" alt="kanye" class="celeb1" style="width:100%;" height="853px">
+            <div class="name">KAN</div>
+            <div class="name2">YE</div>
+            <div class="space">KANYE WEST</div>
+            <div class="artist2">
+                <img src="img/Cool taylor.png" alt="taylor" class="celeb2-3" style="width:100%;" height="853px">
+                <div class="name">TAY</div>
+                <div class="name2">LOR</div>
+                <div class="space">TAILOR SWIFT</div>
+            </div>
+            <div class="artist3">
+                <img src="img/WEEKND 2.png" alt="weeknd" class="celeb2-3" style="width:100%;" height="853px">
+                <div class="name">WEE</div>
+                <div class="name2">KND</div>
+                <div class="space">THE WEEKND</div>
+                <div id="view-all">view all artists</div>
+            </div>
+        </div>
+
+        <div class="location-section">
+            <div class="location">
+                <div id="location-title">LOCATION</div>
+                <img src="img/brisbane 3.png" alt="celeb" style="width:100%;" height="800px">
+                <div class="location-info-1">BRISBANE</div>
+                <div class="location-info-2">DEC19th</div>
+                <div class="location-info-3">THE FAMILY</div>
+                <div class="location-info-4">FORTITUDE VALLEY</div>
+                <div class="location-info-5">10PM</div>
+                <div class="button-spot"><button class="buy-ticket">PRE-ORDER</button></div>
+            </div>
+            <div class="location">
+                <img src="img/Sydney-Harbour-Photo-1.png" alt="celeb" style="width:100%;" height="853px">
+                <div class="location-info-1-1">SYDNEY</div>
+                <div class="location-info-2-2">DEC20th</div>
+                <div class="location-info-3-3">S.A.S.H CBD 10pm</div>
+                <div class="button-spot"><button class="buy-ticket">PRE-ORDER</button></div>
+            </div>
+            <div class="location">
+                <img src="img/Melburnian_Skyline.png" alt="celeb" style="width:100%;" height="853px">
+                <div class="location-info-1-1">MELBOURNE</div>
+                <div class="location-info-2-2">DEC21st</div>
+                <div class="location-info-3-3">NEW GEURNICA CBD 10pm</div>
+                <div class="button-spot"><button class="buy-ticket">PRE-ORDER</button></div>
+            </div>
+            <div class="prices">
+                <div class="prices2">$125 - EARLY BIRD</div>
+                <div class="prices2">$159 - AT THE DOOR</div>
+            </div>
+        </div>
+        <div class="footer">
+            <div id="light-grey"></div>
+            <div id="grey"></div>
+            <div id="dark-grey">ALL ARTISTS
+                <!-- <img src="img/wavy-pattern.png" alt="wave" id="wave-pattern"  style="width: 100%;" height="200px"> -->
+            </div>
+            <div id="yellow">
+                <div class="img-section1">
+                    <div class="celeb-image">
+                        <img src="img/Kanye.jpg" alt="kanye" id="celeb" style="width:125px" height="110px">
+                        <div>Kanye West</div>
+                    </div>
+                    <div class="celeb-image">
+                        <img src="img/Cool taylor.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                        <div>Taylor Swift</div>
+                    </div>
+                    <div class="celeb-image">
+                        <img src="img/WEEKND 2.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                        <div>The Weeknd</div>
+                    </div>
+                    <div class="celeb-image">
+                        <img src="img/Ed sheeran 2.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                        <div>Ed Sheeran</div>
+                    </div>
+                    <div class="celeb-image">
+                        <img src="img/Ariana Grande.png" alt="kanye" id="celeb" style="width:125px" height="110px">
+                        <div>Ariana Grande</div>
+                    </div>
+                </div>
+                <!-- <div class="names">Kanye West Taylor Swift The Weeknd</div> -->
+                <div id="socials">SOCIALS</div>
+            </div>
+            <div class="plain-grey"></div>
+            <div class="icons-section">
+                <div class="icon-spot">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="icon-spot">
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+                <div class="icon-spot">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="icon-spot">
+                    <i class="fa-brands fa-spotify"></i>
+                </div>
+                <div class="some-text">
+                    Contract
+                    Privacy Policy
+                    FAQ
+                </div>
+            </div>
+            <!-- REFERENCE THIIIISSSSS!!!!!!!!!! make like a sign in input -->
+        <div class="custom_input">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg_icon bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path></svg>
+            <input class="input" type="text" placeholder="Sign in">
+        </div>
+        
+        </div>
+</body>
+</html>
+<!-- make sure to line up the html and css correctly -->
